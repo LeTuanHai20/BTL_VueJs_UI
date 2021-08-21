@@ -1,0 +1,24 @@
+/* Hàm css chung  */
+*{
+    font-family: Helvetica,Tahoma,Arial,sans-serif;
+}
+
+#app{
+    margin: 0;
+    padding: 0;
+    
+}
+.row{
+    margin: 0 !important;
+    padding: 0 !important;
+    height: calc(100vh - 105px);
+}
+.amis-content{
+    width: calc(100% - 85px);
+}
+.dx-dropdowneditor.dx-state-active .dx-dropdowneditor-icon, .dx-dropdowneditor.dx-state-hover:not(.dx-custom-button-hovered) .dx-dropdowneditor-icon{
+    background-color: white !important;
+}
+.dx-dropdowneditor-button.dx-state-active .dx-dropdowneditor-icon, .dx-dropdowneditor.dx-dropdowneditor-active .dx-dropdowneditor-icon{
+    background-color: white !important;
+}
